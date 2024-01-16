@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.container {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  border-style: inset;
+  border-width: 8px;
+  border-color: rgb(14, 6, 4);
+  width: 1000px;
+  height: 70vh;
+  background-color: rgb(234, 244, 253);
+}
+img.icon {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+}
+
+.nav {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  padding-right: 300px;
+}
+li {
+  padding: 10px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.moon {
+  width: 12px;
+}
+
+.sun {
+  width: 12px;
+}
+
+.moonsun {
+  margin-right: 30px;
+  height: 15px;
+  padding: 0 auto;
+  border-radius: 20px;
+  border-width: 1px;
+  margin-top: 20px;
+}
+h1 {
+  font-weight: bolder;
+  color: black;
+  padding: 0.1px;
+}
+h6 {
+  font-size: 8px;
+  font-weight: bold;
+  color: black;
+  padding: 1px;
+}
+
+body {
+  margin: 30px 50px 20px 50px;
+  font-family: "roboto";
+  font-size: 16px;
+  background-color: rgb(41, 5, 44);
+  display: flex;
+}
+p {
+  font-size: 10px;
+  font: weight 300px;
+  color: rgb(33, 47, 53);
+}
+
+.get {
+  background-color: blue;
+  margin-top: 16px;
+  padding: 8px;
+  border: 1px solid blue;
+  color: white;
+  font-size: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+.go {
+  background-color: white;
+  margin-top: 16px;
+  padding: 8px;
+  border: 1px white;
+  color: blue;
+  font-size: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+img.ring1 {
+  width: 15px;
+}
+
+img.ring2 {
+  width: 15px;
+}
+.credit {
+  font-size: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-left: auto;
+}
+
+.software {
+  font-size: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-left: auto;
+}
+.done {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+img.hero {
+  width: 300px;
+  height: 300px;
+}
+
+.leftright{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
